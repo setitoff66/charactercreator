@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+.navbar,
+h1 {
+  text-align: center;
+  align-items: 'center';
+  color: red;
+
+  border-radius: 20%;
+  align-content: center;
+  border: dotted black 2px;
+
+
+  align-items: space-between;
+  font-size: 65px;
+  text-shadow: 1px 1px black,
+    2px 2px black, 3px 3px black, 4px 4px black,
+    5px 5px black, 6px 6px black;
+
+
+}
+
+.container a {
+  text-align: center;
+  align-items: 'center';
+
+
+  padding: 2px;
+  border-radius: 10%;
+  align-content: center;
+  border: dotted black 2px;
+  width: auto;
+}
+
+.header a {
+  min-height: 40px;
+
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  align-content: center;
+  align-content: flex-start;
+  background-color: gray;
+}
+
+.container,
+.container a {
+  background-color: white;
+  background-size: fill;
+  height: auto;
+
+}
+
+.container p {
+  text-align: center;
+  margin-right: 40px;
+
+}
+
+.character {
+  line-height: 100px;
+}
+
+.form-group {
+  display: flex;
+  margin: 5px;
+}
+
+.form-group label {
+  flex: 1;
+}
+
+.form-group input {
+  flex: 4;
+}
